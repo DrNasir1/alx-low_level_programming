@@ -3,7 +3,7 @@
  * main - check the code
  * _isupper - check upper
  * @c : parameter ofvd function
- * Return: return per instruction
+ * Return: always 0.
  */
 int _isupper(int c)
 {
