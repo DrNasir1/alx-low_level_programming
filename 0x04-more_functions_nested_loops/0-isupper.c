@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * main - check the code
  * _isupper - check upper
  * @c : parameter ofvd function
- * Return: always 0.
- */
+ * Return: return per instruction
+ * /
 int _isupper(int c)
 {
 if (c >= 'A' && c <= 'Z')
