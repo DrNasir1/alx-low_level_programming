@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- * main - check the code
  * _isupper - check upper
  * @c : parameter ofvd function
  * Return: return per instruction
