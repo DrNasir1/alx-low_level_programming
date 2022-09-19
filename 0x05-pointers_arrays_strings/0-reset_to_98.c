@@ -3,16 +3,10 @@
 /*
  * main - check the code
  * @m - takes a pointer to int and updates the value to 98
- * Return: always return (0)
+ * Return: always return (void)
  */
 void reset_to_98(int *n)
 {
-	int n;
-	int *p;
-	p =&n;
-	n =402;
-	printf("the value of n b4 is %d\n", n);
-	*p =98;
-	printf("the value of n after is %d\n", n);
-	return(0);
+*n=98
+return(void)
 }
