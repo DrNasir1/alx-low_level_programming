@@ -6,6 +6,7 @@
  *@b - second parameter/int
  *return(void)
  */
+void swap_int(int *a, int *b)
 {
 	int s;
 		s = *a;
