@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - reset to 98
+ * reset_to_98 - reset to ninety eight
  * @n : parameter for the pointer func
  * Return: void
  */
