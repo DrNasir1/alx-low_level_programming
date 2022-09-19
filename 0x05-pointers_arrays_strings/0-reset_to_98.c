@@ -7,12 +7,12 @@
  */
 void reset_to_98(int *n)
 {
-	int f;
+	int n;
 	int *p;
-	p =&f;
-	f =402;
-	printf("the value of n b4 is %d\n", f);
+	p =&n;
+	n =402;
+	printf("the value of n b4 is %d\n", n);
 	*p =98;
-	printf("the value of n after is %d\n", f);
+	printf("the value of n after is %d\n", n);
 	return(0);
 }
