@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * main - enters from here and exits from this point
  * _strspn - string prefix check
  * @s : destination to check
  * @accept: accept string
