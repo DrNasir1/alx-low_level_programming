@@ -1,30 +1,29 @@
 #include "main.h"
 
 /**
- * main - enters from here and exits from this point
- * _strspn - string prefix check
- * @s : destination to check
- * @accept: accept string
- * Return: return integer
- */
+* _strspn - Gets the length of a prefix substring.
+* @s: String where substring will look.
+* @accept: Substring of accepted chars.
+* Return: Length of occurrence.
+*/
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, k, signal;
+	unsigned int c = 0;
+	char *t = accept;
 
-	k = 0;
-	for (i = 0; s[i] != '\0'; i++)
+	while (*s++)
 	{
-		signal = 0;
-		for (j = 0; accept[j] != '\0'; j++)
-			if (s[i] = accept[j])
+		while (*accept++)
+			if (*(s - 1) == *(accept - 1))
 			{
-				k++;
-				signal = 1;
+				c++;
+				break;
 			}
-		if (signal == 0)
-			return (k);
+		if (!(*--accept))
+			break;
+		accept = t;
 	}
-
-	return (0);
+	return (c);
 }
+
