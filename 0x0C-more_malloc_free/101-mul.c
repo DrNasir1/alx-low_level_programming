@@ -42,7 +42,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *tab;
 	unsigned int i;
-	B
 
 	tab = malloc(size * nmemb);
 
@@ -114,7 +113,7 @@ void print_array(char *a, int nb)
  *@argv: array.
  *Return: 0.
  */
-OOB
+
 int main(int argc, char *argv[])
 {
 	int i, c, len1, len2, lenres;
