@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- *main - this 0 program prints out using puts functions
- *return: this prprogram returns zero after successful try
+ *main - this program prints out using puts functions
+ *return: this prprogram returns 0 zero after successful try
  */
 
 int main(void)
