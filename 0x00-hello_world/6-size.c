@@ -1,14 +1,14 @@
 #include <stdio.h>
+
 /**
- * main - the program starts and ends with main
- * Return: the program returns 0 upon completion and success
+ * main - the program enters and exit through main.
+ * Retrun: the program returns a zero value.
  */
 int main(void)
 {
-printf("Size of a char: %d byte(s)\n", sizeof(char));
-printf("Size of an int: %d byte(s)\n", sizeof(int));
-printf("Size of a long int: %d byte(s)\n", sizeof(long int));
-printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
-printf("Size of a float: %d byte(s)\n", sizeof(float));
-return (0);
+	printf("The size of char:          %ldbytes.\n",(sizeof(char)));
+	printf("The size of int:           %ldbytes.\n",(sizeof(int)));
+	printf("The size of long int:      %ldbytes.\n",(sizeof(long int)));
+	printf("The size of long long int: %ldbytes.\n",(sizeof(long long int)));
+	return(0);
 }
