@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - this program prints out using puts functions
+ * main - main this program prints out using puts functions
  * return: this prprogram returns 0 zero after successful try
  */
 
